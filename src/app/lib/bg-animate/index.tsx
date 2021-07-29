@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from "react";
-import useStyle from "./styles.jss";
+import useStyle from "app/lib/bg-animate/styles.jss";
 
 const RawBackgroundAnimation = ({ children }: PropsWithChildren<any>) => {
   const classes = useStyle();

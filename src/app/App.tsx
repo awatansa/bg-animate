@@ -1,6 +1,6 @@
 import React from "react";
-import "./App.css";
-import BackgroundAnimation from "./lib";
+import "app/App.css";
+import BackgroundAnimation from "app/lib";
 
 function App() {
   return (
