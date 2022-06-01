@@ -1,17 +1,13 @@
-import React from "react";
 import "app/App.css";
 import BackgroundAnimation from "app/lib";
+import React from "react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div className={"bg-animate"}>
-          <BackgroundAnimation>
-            <h1>Hello World!</h1>
-          </BackgroundAnimation>
-        </div>
-      </header>
+    <div className="bg-animate">
+      <BackgroundAnimation regular>
+        <header>This Section should be covered with Bubbles</header>
+      </BackgroundAnimation>
     </div>
   );
 }
